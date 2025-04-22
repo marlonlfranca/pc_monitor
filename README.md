@@ -110,6 +110,9 @@ Uso de Disco
 ![image](https://github.com/user-attachments/assets/2942fa7f-9cb8-4b61-9af4-a31c7f2f146e)
 
 
+Visão Geral
+
+![image](https://github.com/user-attachments/assets/025a933c-1d31-453b-9ddf-4cfca0810f08)
 
 
 
