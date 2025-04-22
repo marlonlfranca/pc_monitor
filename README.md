@@ -22,7 +22,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 1. Baixe os arquivos deste repositório.
 2. Baixe o [Prometheus](https://prometheus.io/download/) e o instale.
-3. Na pasta do Prometheus, localize o arquivo prometheus.yml, apague todos os dados e cole as informações do arquivo [ymlconfig.txt](configs/ymlconfig.txt).
+3. Na pasta do Prometheus, localize o arquivo _prometheus.yml_, apague todos os dados e cole as informações do arquivo [ymlconfig.txt](configs/ymlconfig.txt).
 
 > [!IMPORTANT]
 > ESCOLHA UMA DAS OPÇÕES
