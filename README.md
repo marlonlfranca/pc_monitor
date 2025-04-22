@@ -2,13 +2,13 @@
 
 Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM Windows e as plota em tempo real no Grafana.  
 
-##Tecnologias  
+## Tecnologias  
 - Python (psutil, prometheus-client)  
 - Prometheus  
 - Grafana  
 - NSSM (para serviços Windows)
 
-##Sumário
+## Sumário
 1. Instale as dependências no VSCode (requirements.txt)
 2. Crie um arquivo de coleta dos dados (pc_monitor.py)
 3. Baixe, instale e inicie e configure o Prometheus \n
