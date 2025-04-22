@@ -25,7 +25,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 > [!IMPORTANT]
 > ESCOLHA UMA DAS OPÇÕES
 
-### **OPÇÃO 1 - EXECUÇÃO EM SEGUNDO PLANO**
+### **OPÇÃO 1[^1] - EXECUÇÃO EM SEGUNDO PLANO**
 
 4. Abra o Terminal de Comandos com permissões de administrador.
 5. Rode o arquivo em background com o comando `start /B python pc_monitor.py`
@@ -47,7 +47,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 12. Em <ins>PATH</ins>, insira o caminho do arquivo python que roda na máquina.
 > [!TIP]
 > Caso não saiba o caminho do arquivo python na sua máquina, abra o Terminal de Comandos (com permissão admin) e digite o comando `where python`, será retornado o local do arquivo python. Copie o caminho para o passo seguinte.
-14. Em <ins>STARTUP DIRECTORY</ins> , insira o caminho do arquivo pc_monitor.py[^1]
+14. Em <ins>STARTUP DIRECTORY</ins> , insira o caminho do arquivo pc_monitor.py[^2]
 15. Em ARGUMENTS, insira o nome do arquivo.
 16. Pressione OK, será retornada a mensagem "Sucesso", para confirmar o sucesso da instalação, no terminal, utilize o comando:
       nssm status pc_monitor
@@ -123,10 +123,8 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 ## **OBSERVAÇÕES**
 
-Caso você tenha selecionado a opção 1, seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida. Na opção 2, o programa é executado automaticamente, como parte do sistema.
-
-GLOSSÁRIO
-[^1]: Definir o que é.
+[^1]: Caso você tenha selecionado a opção 1[^1], seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida. Na opção 2, o programa é executado automaticamente, como parte do sistema.
+[^2]: 
 
 
 
