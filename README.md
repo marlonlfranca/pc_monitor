@@ -73,27 +73,27 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 22. Crie um novo dashboard na opção "+" e <ins>NEW DASHBOARD</ins>:
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/735de1ab-ac9f-46d8-ad75-b81c85dfd624)
+      <img src="https://github.com/user-attachments/assets/735de1ab-ac9f-46d8-ad75-b81c85dfd624">
 </p>
 
 23. No novo dash, selecione <ins>ADD VISUALIZATION</ins>
 24. <ins>Em DATA SOURCE</ins>, clique em Prometheus
 <p align="center">
-![image](https://github.com/user-attachments/assets/552e897a-eaba-443c-93dc-7f3c1207c399)
+      <img src="https://github.com/user-attachments/assets/552e897a-eaba-443c-93dc-7f3c1207c399">
 </p>
 
 25. Em <ins>METRIC</ins>, selecione a métrica _cpu_usage_percent_, em <ins>LABEL FILTERS</ins>, selecione <ins>JOB</ins>, em <ins>SELECT VALUE</ins>, selecione _pc_metrics_
 26. Pressione <ins>RUN QUERIES</ins> para visualizar os dados obtidos
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/e3b18296-1e97-4605-be4f-29d5264e593a)
+      <img src="https://github.com/user-attachments/assets/e3b18296-1e97-4605-be4f-29d5264e593a">
 </p>
 
 27. Pressione <ins>BACK TO DASHBOARD</ins>
 28. Clique nos 3 pontos do canto superior direito do primeiro painel, depois, MORE, depois, <ins>DUPLICATE</ins>
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/5b2a4324-bfd5-40d3-a927-46543a652506)
+      <img src="https://github.com/user-attachments/assets/5b2a4324-bfd5-40d3-a927-46543a652506">
 </p>
 
 29. Clique em qualquer parte do painel duplicado, pressione "E", agora, altere a informação da métrica (anteriormente _cpu_user_percent_), desta vez, selecione _ram_usage_percent_
@@ -104,23 +104,23 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 ### Uso de CPU
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/ca03706e-b7b1-45c3-857f-12b7a1e41ff0)
+      <img src="https://github.com/user-attachments/assets/ca03706e-b7b1-45c3-857f-12b7a1e41ff0">
 </p>
 
 ### Uso de Memória
 <p align="center">
-![image](https://github.com/user-attachments/assets/b1d534fb-62d5-4d63-b2d2-4a10093f8cfb)
+      <img src="https://github.com/user-attachments/assets/b1d534fb-62d5-4d63-b2d2-4a10093f8cfb">
 </p>
 
 
 ### Uso de Disco
 <p align="center">
-![image](https://github.com/user-attachments/assets/2942fa7f-9cb8-4b61-9af4-a31c7f2f146e)
+      <img src="https://github.com/user-attachments/assets/2942fa7f-9cb8-4b61-9af4-a31c7f2f146e">
 </p>
 
 ### Visão Geral
 <p align="center">
-![image](https://github.com/user-attachments/assets/025a933c-1d31-453b-9ddf-4cfca0810f08)
+      <img src="https://github.com/user-attachments/assets/025a933c-1d31-453b-9ddf-4cfca0810f08">
 </p>
 
 ## **OBSERVAÇÕES**
