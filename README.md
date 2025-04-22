@@ -29,7 +29,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 ### **OPÇÃO 1 - EXECUÇÃO EM SEGUNDO PLANO**
 
-4. Abra o Terminal de Comandos com administrador.
+4. Abra o Terminal de Comandos com permissões de administrador.
 5. Rode o arquivo em background com o comando:
       start /B python pc_monitor.py
 6. Obs: Assim que o terminal de comandos for fechado, a execução será interrompida.
