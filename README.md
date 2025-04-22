@@ -36,7 +36,7 @@ OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)
       nssm install pc_monitor
 11. A seguinte janela será aberta:
 
-![image](https://github.com/user-attachments/assets/7c6ed3e9-c77f-412a-90db-930f88116c9f)
+![image](https://github.com/user-attachments/assets/7c6ed3e9-c77f-412a-90db-930f88116c9f)!
 12. Em PATH, insira o caminho do arquivo python que roda na máquina
 13. Em STARTUP DIRECTORY, insira o caminho do arquivo pc_monitor.py
 14. Em ARGUMENTS, insira o nome do arquivo.
