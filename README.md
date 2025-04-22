@@ -36,9 +36,9 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 ### **OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)**
 
-7. Baixe e instale o NSSM: https://nssm.cc/download
-8. Abra o terminal de comandos (admin) e navegue até a pasta NSSM
-      cd CAMINHO_DO_ARQUIVO_NSSM
+7. Baixe e instale o [NSSM](https://nssm.cc/download)
+8. Abra o terminal de comandos (como administrador) e navegue até a pasta NSSM
+      ''' cd CAMINHO_DO_ARQUIVO_NSSM '''
 10. O NSSM será executado pela primeira vez já na criação do serviço (pc_monitor.py), então, copie o caminho do arquivo pc_monitor.py e o insira no comando abaixo:
       nssm install pc_monitor
 11. A seguinte janela será aberta:
