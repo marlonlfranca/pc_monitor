@@ -35,6 +35,7 @@ OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)
 10. O NSSM será executado pela primeira vez já na criação do serviço (pc_monitor.py), então, copie o caminho do arquivo pc_monitor.py e o insira no comando abaixo:
       nssm install pc_monitor
 11. A seguinte janela será aberta:
+
 ![image](https://github.com/user-attachments/assets/7c6ed3e9-c77f-412a-90db-930f88116c9f)
 12. Em PATH, insira o caminho do arquivo python que roda na máquina
 13. Em STARTUP DIRECTORY, insira o caminho do arquivo pc_monitor.py
@@ -47,6 +48,7 @@ INSTALAÇÃO DO GRAFANA
 17. Baixe e instale o Grafana: https://grafana.com/grafana/download
 18. Acesse o grafana na página padrão: http://localhost:3000
 19. Acesse a aba CONNECTIONS, depois, no campo SEARCH, digite Prometheus, selecione a opção que aparecer com o indicador "instalado"
+![image](https://github.com/user-attachments/assets/943a5837-04b9-4ca6-b114-ae435b8b46f6)
 
 
 
