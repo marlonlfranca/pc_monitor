@@ -1,4 +1,4 @@
-##Monitoramento de Recursos de PC com Prometheus + Grafana  
+# Monitoramento de Recursos - Prometheus + Grafana  
 
 Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM Windows e as plota em tempo real no Grafana.  
 
