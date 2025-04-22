@@ -79,7 +79,6 @@ INSTALAÇÃO DO GRAFANA
 28. Clique nos 3 pontos do canto superior direito do primeiro painel, depois, MORE, depois, DUPLICATE
 
 ![image](https://github.com/user-attachments/assets/5b2a4324-bfd5-40d3-a927-46543a652506)
-![image](https://github.com/user-attachments/assets/174af1f4-a9fd-4757-bd10-058f6a75d0a7)
 
 
 29. Clique em qualquer parte do painel duplicado, pressione "E", agora, altere a informação da métrica (anteriormente _cpu_user_percent_), desta vez, selecione _ram_usage_percent_
