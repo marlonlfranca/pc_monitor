@@ -123,8 +123,8 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 ## **OBSERVAÇÕES**
 
-[^1]: Caso você tenha selecionado a opção 1, seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida.
+[^1]: Opção 1 - seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida.
 
-[^2]: Na opção 2, o programa é executado automaticamente, como parte do sistema.
+[^2]: Opção 2 - o programa é executado automaticamente, como parte do sistema.
 
 Boas práticas.
