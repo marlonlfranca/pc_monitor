@@ -31,7 +31,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 5. Rode o arquivo em background com o comando `start /B python pc_monitor.py`
 6. Obs: Assim que o terminal de comandos for fechado, a execução será interrompida.
 
-### **OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)**
+### **OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO[^2]**
 
 7. Baixe e instale o [NSSM](https://nssm.cc/download)
 8. Abra o terminal de comandos (como administrador) e navegue até a pasta NSSM com o comando `cd CAMINHO_DO_ARQUIVO_NSSM`
@@ -123,9 +123,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 ## **OBSERVAÇÕES**
 
-[^1]: Caso você tenha selecionado a opção 1[^1], seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida. Na opção 2, o programa é executado automaticamente, como parte do sistema.
-[^2]: 
-
-
+[^1]: Caso você tenha selecionado a opção 1[^1], seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida.
+[^2]: Na opção 2[^2], o programa é executado automaticamente, como parte do sistema.
 
 Boas práticas.
