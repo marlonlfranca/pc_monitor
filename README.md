@@ -9,13 +9,11 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 - NSSM (para serviços Windows)
 
 ## Sumário
-1. Instale as dependências no VSCode (requirements.txt)
-2. Crie um arquivo de coleta dos dados (pc_monitor.py)
-3. Baixe, instale e inicie e configure o Prometheus \n
-4. Execute o Prometheus em segundo plano (start_monitor.bat)  - opcional.
-5. Instale o Grafana e o configure para receber os dados do Prometheus
-6. Crie um dashboard e monitore os dados em tempo real.
-
+1. Baixe e instale os arquivos deste repositório.
+2. Siga os passos de instação dos recursos.
+3. Baixe, instale, inicie e configure o Prometheus.
+4. Baixe e instale o Grafana, configure para receber os dados do Prometheus.
+5. Crie um dashboard e monitore sua máquina em tempo real.
 
 ## Como Executar
 ### **Na máquina que será monitorada:**
