@@ -55,6 +55,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 16. A mensagem esperada é SERVICE_RUNNING. Caso seja retornada a mensagem SERVICE_STOPPED, remova a atual instalação com o comando _nssm remove pc_monitor confirm_ e reinstale. Caso ainda não funcione após a segunda tentativa, verifique o path (variáveis de ambiente) e as permissões de seu usuário _regedit_.
 
 **INSTALAÇÃO DO GRAFANA**
+
 17. Baixe e instale o Grafana: https://grafana.com/grafana/download
 18. Acesse o grafana na página padrão: http://localhost:3000
 19. Acesse a aba CONNECTIONS, depois, no campo SEARCH, digite Prometheus, selecione a opção que aparecer com o indicador "instalado"
@@ -92,7 +93,17 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 30. Repita o mesmo processo para um terceiro painel, e neste, selecione a métrica _disk_usage_percent_
 31. Faça quantas alterações mais achar necessário no visual do painel.
 
-OBSERVAÇÕES
+**RESULTADO FINAL**
+![image](https://github.com/user-attachments/assets/5ae558ab-dd75-4ca9-9de5-9ff03915ac83)
+
+
+
+
+
+
+
+
+**OBSERVAÇÕES**
 
 Caso você tenha selecionado a opção 1, seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida. Na opção 2, o programa é executado automaticamente, como parte do sistema.
 
