@@ -63,7 +63,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 19. Acesse a aba <ins>CONNECTIONS</ins>, depois, no campo <ins>SEARCH</ins>, digite `Prometheus`, selecione a opção que aparecer com o indicador "instalado"
 
 <p align="center">
-![image](https://github.com/user-attachments/assets/b8e1ff78-5825-42dd-8bbc-13f79aac8a74)
+      <img src="https://github.com/user-attachments/assets/b8e1ff78-5825-42dd-8bbc-13f79aac8a74">
 </p>
 
 20. Na página seguinte, selecione <ins>ADD NEW DATA SOURCE</ins>
