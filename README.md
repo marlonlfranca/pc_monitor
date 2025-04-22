@@ -94,9 +94,20 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 31. Faça quantas alterações mais achar necessário no visual do painel.
 
 **RESULTADO FINAL**
-![image](https://github.com/user-attachments/assets/5ae558ab-dd75-4ca9-9de5-9ff03915ac83)
+Uso de CPU
 
 
+![image](https://github.com/user-attachments/assets/ca03706e-b7b1-45c3-857f-12b7a1e41ff0)
+
+Uso de Memória
+
+![image](https://github.com/user-attachments/assets/b1d534fb-62d5-4d63-b2d2-4a10093f8cfb)
+
+
+
+Uso de Disco
+
+![image](https://github.com/user-attachments/assets/2942fa7f-9cb8-4b61-9af4-a31c7f2f146e)
 
 
 
