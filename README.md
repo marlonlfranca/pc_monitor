@@ -19,18 +19,21 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 ##Como Executar
 **Na máquina que será monitorada:**
+
 1. Baixe os arquivos deste repositório.
 2. Baixe o Prometheus: https://prometheus.io/download/ e o instale.
 3. Na pasta do Prometheus, localize o arquivo prometheus.yml, apague todos os dados e cole as informações do arquivo ymlconfig.txt.
    (ESCOLHA UMA DAS OPÇÕES)
 
 **OPÇÃO 1 - EXECUÇÃO EM SEGUNDO PLANO**
+
 4. Abra o Terminal de Comandos com administrador.
 5. Rode o arquivo em background com o comando:
       start /B python pc_monitor.py
 6. Obs: Assim que o terminal de comandos for fechado, a execução será interrompida.
 
 **OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)**
+
 7. Baixe e instale o NSSM: https://nssm.cc/download
 8. Abra o terminal de comandos (admin) e navegue até a pasta NSSM
       cd CAMINHO_DO_ARQUIVO_NSSM
