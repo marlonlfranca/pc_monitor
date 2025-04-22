@@ -53,7 +53,7 @@ INSTALAÇÃO DO GRAFANA
 17. Baixe e instale o Grafana: https://grafana.com/grafana/download
 18. Acesse o grafana na página padrão: http://localhost:3000
 19. Acesse a aba CONNECTIONS, depois, no campo SEARCH, digite Prometheus, selecione a opção que aparecer com o indicador "instalado"
-![image](https://github.com/user-attachments/assets/943a5837-04b9-4ca6-b114-ae435b8b46f6)
+![image](https://github.com/user-attachments/assets/b8e1ff78-5825-42dd-8bbc-13f79aac8a74)
 
 
 
