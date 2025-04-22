@@ -29,9 +29,12 @@ OPÇÃO 1 - EXECUÇÃO EM SEGUNDO PLANO
         start /B python pc_monitor.py
 6. Obs: Assim que o terminal de comandos for fechado, a execução será interrompida.
 OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)
-7. Baixe o arquivo start_monitor.bat
-8. Baixe e instale o NSSM: https://nssm.cc/download
-9. Configure o NSSM com as seguintes informações:
+7. Baixe e instale o NSSM: https://nssm.cc/download
+8. Configure o NSSM com as seguintes informações:
+
+9. Baixe o arquivo start_monitor.bat
+10. 
+11. 
 
 7. No VsCode (ou IDE de sua escolha), instale as bibliotecas Python:
         pip install psutil prometheus-client
