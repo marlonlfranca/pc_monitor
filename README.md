@@ -17,8 +17,8 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 6. Crie um dashboard e monitore os dados em tempo real.
 
 
-##Como Executar
-**Na máquina que será monitorada:**
+## Como Executar
+### **Na máquina que será monitorada:**
 
 1. Baixe os arquivos deste repositório.
 2. Baixe o Prometheus: https://prometheus.io/download/ e o instale.
