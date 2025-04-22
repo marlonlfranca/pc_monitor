@@ -37,10 +37,8 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 ### **OPÇÃO 2 - EXECUÇÃO COMO SERVIÇO (PARA MONITORAMENTO CONTÍNUO)**
 
 7. Baixe e instale o [NSSM](https://nssm.cc/download)
-8. Abra o terminal de comandos (como administrador) e navegue até a pasta NSSM
-      `cd CAMINHO_DO_ARQUIVO_NSSM`
-10. O NSSM será executado pela primeira vez já na criação do serviço, esse serviço será chamado pc_monitor.py, então, copie o caminho do arquivo [pc_monitor.py](scripts/pc_monitor.py) e o insira no comando a seguir:
-      `nssm install pc_monitor`
+8. Abra o terminal de comandos (como administrador) e navegue até a pasta NSSM com o comando `cd CAMINHO_DO_ARQUIVO_NSSM`
+10. O NSSM será executado pela primeira vez já na criação do serviço, esse serviço será chamado pc_monitor.py, então, copie o caminho do arquivo [pc_monitor.py](scripts/pc_monitor.py) e o insira no comando `nssm install pc_monitor`
 11. A seguinte janela será aberta:
 
 ![teste](https://github.com/user-attachments/assets/7c6ed3e9-c77f-412a-90db-930f88116c9f)
@@ -49,12 +47,14 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 
 
-12. Em PATH, insira o caminho do arquivo python que roda na máquina
-13. Em STARTUP DIRECTORY, insira o caminho do arquivo pc_monitor.py
-14. Em ARGUMENTS, insira o nome do arquivo.
-15. Pressione OK, será retornada a mensagem "Sucesso", para confirmar o sucesso da instalação, no terminal, utilize o comando:
+12. Em PATH, insira o caminho do arquivo python que roda na máquina.
+> [!TIP]
+> Caso não saiba o caminho do arquivo python na sua máquina, abra o Terminal de Comandos (com permissão admin) e digite o comando `where python`, será retornado o local do arquivo python. Copie o caminho para o passo seguinte.
+14. Em <ins>STARTUP DIRECTORY/<ins>, insira o caminho do arquivo pc_monitor.py[^1]
+15. Em ARGUMENTS, insira o nome do arquivo.
+16. Pressione OK, será retornada a mensagem "Sucesso", para confirmar o sucesso da instalação, no terminal, utilize o comando:
       nssm status pc_monitor
-16. A mensagem esperada é SERVICE_RUNNING. Caso seja retornada a mensagem SERVICE_STOPPED, remova a atual instalação com o comando _nssm remove pc_monitor confirm_ e reinstale. Caso ainda não funcione após a segunda tentativa, verifique o path (variáveis de ambiente) e as permissões de seu usuário _regedit_.
+17. A mensagem esperada é SERVICE_RUNNING. Caso seja retornada a mensagem SERVICE_STOPPED, remova a atual instalação com o comando _nssm remove pc_monitor confirm_ e reinstale. Caso ainda não funcione após a segunda tentativa, verifique o path (variáveis de ambiente) e as permissões de seu usuário _regedit_.
 
 **INSTALAÇÃO DO GRAFANA**
 
@@ -123,4 +123,11 @@ Visão Geral
 
 Caso você tenha selecionado a opção 1, seu programa estará sendo executado enquanto o terminal estiver aberto, assim que for fechado, a execução será interrompida. Na opção 2, o programa é executado automaticamente, como parte do sistema.
 
+GLOSSÁRIO
+[^1]: Definir o que é.
+
+
+
 Boas práticas.
+
+
