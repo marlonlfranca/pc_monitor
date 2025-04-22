@@ -1,4 +1,4 @@
-#Monitoramento de Recursos de PC com Prometheus + Grafana  
+![image](https://github.com/user-attachments/assets/174af1f4-a9fd-4757-bd10-058f6a75d0a7)#Monitoramento de Recursos de PC com Prometheus + Grafana  
 
 Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM Windows e as plota em tempo real no Grafana.  
 
@@ -53,13 +53,40 @@ INSTALAÇÃO DO GRAFANA
 17. Baixe e instale o Grafana: https://grafana.com/grafana/download
 18. Acesse o grafana na página padrão: http://localhost:3000
 19. Acesse a aba CONNECTIONS, depois, no campo SEARCH, digite Prometheus, selecione a opção que aparecer com o indicador "instalado"
+
+
 ![image](https://github.com/user-attachments/assets/b8e1ff78-5825-42dd-8bbc-13f79aac8a74)
 
+20. Na página seguinte, selecione ADD NEW DATA SOURCE
+21. Na página de configuração, informe a URL: http://localhost:9000 e SCRAPE INTERVAL: 5s (5 segundos), nada mais precisa ser alterado.
+22. Crie um novo dashboard na opção "+" e NEW DASHBOARD:
 
 
-aaaaaaaaaaaa
+![image](https://github.com/user-attachments/assets/735de1ab-ac9f-46d8-ad75-b81c85dfd624)
+
+23. No novo dash, selecione ADD VISUALIZATION
+24. Em DATA SOURCE, clique em Prometheus
+
+![image](https://github.com/user-attachments/assets/552e897a-eaba-443c-93dc-7f3c1207c399)
 
 
+25. Em METRIC, selecione a métrica _cpu_usage_percent_, em LABEL FILTERS, selecione JOB, em SELECT VALUE, selecione _pc_metrics_
+26. Pressione RUN QUERIES para visualizar os dados obtidos
 
+![image](https://github.com/user-attachments/assets/e3b18296-1e97-4605-be4f-29d5264e593a)
+
+27. Pressione BACK TO DASHBOARD
+28. Clique nos 3 pontos do canto superior direito do primeiro painel, depois, MORE, depois, DUPLICATE
+
+![image](https://github.com/user-attachments/assets/5b2a4324-bfd5-40d3-a927-46543a652506)
+
+
+29. Clique em qualquer parte do painel duplicado, pressione "E", agora, altere a informação da métrica (anteriormente _cpu_user_percent_), desta vez, selecione _ram_usage_percent_
+30. Repita o mesmo processo para um terceiro painel, e neste, selecione a métrica _disk_usage_percent_
+31. Faça quantas alterações mais achar necessário no visual do painel.
+
+OBSERVAÇÕES
+
+Caso você tenha selecionado a opção 1, 
 
 
