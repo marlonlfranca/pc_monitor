@@ -46,7 +46,7 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 12. Em <ins>PATH</ins>, insira o caminho do arquivo python que roda na máquina.
 > [!TIP]
 > Caso não saiba o caminho do arquivo python na sua máquina, abra o Terminal de Comandos (com permissão admin) e digite o comando `where python`, será retornado o local do arquivo python. Copie o caminho para o passo seguinte.[^3]
-14. Em <ins>STARTUP DIRECTORY</ins> , insira o caminho do arquivo pc_monitor.py[^2]
+14. Em <ins>STARTUP DIRECTORY</ins> , insira o caminho do arquivo pc_monitor.py
 15. Em <ins>ARGUMENTS</ins>, insira o nome do arquivo.
 16. Pressione OK, será retornada a mensagem "Sucesso", para confirmar o sucesso da instalação, no terminal, utilize o comando:
       nssm status pc_monitor
