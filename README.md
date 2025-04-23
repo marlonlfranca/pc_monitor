@@ -48,10 +48,9 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 > Caso não saiba o caminho do arquivo python na sua máquina, abra o Terminal de Comandos (com permissão admin) e digite o comando `where python`, será retornado o local do arquivo python. Copie o caminho para o passo seguinte.[^3]
 14. Em <ins>STARTUP DIRECTORY</ins> , insira o caminho do arquivo pc_monitor.py
 15. Em <ins>ARGUMENTS</ins>, insira o nome do arquivo.
-16. Pressione OK, será retornada a mensagem "Sucesso", para confirmar o sucesso da instalação, no terminal, utilize o comando:
-      nssm status pc_monitor
+16. Pressione OK, será retornada a mensagem "Sucesso", para confirmar o sucesso da instalação, no terminal, utilize o comando `nssm status pc_monitor`
 17. A mensagem esperada é <ins>SERVICE_RUNNING</ins>.
-> Caso seja retornada a mensagem _SERVICE_STOPPED_, remova a atual instalação com o comando _nssm remove pc_monitor confirm_ e reinstale. Caso ainda não funcione após a segunda tentativa, verifique o path (variáveis de ambiente) e as permissões de seu usuário _regedit_.
+> Caso seja retornada a mensagem _SERVICE_STOPPED_, remova a atual instalação com o comando `nssm remove pc_monitor confirm` e reinstale. Caso ainda não funcione após a segunda tentativa, verifique o path (variáveis de ambiente)[^4] e/ou as permissões de seu usuário _regedit_.
 
 ### **INSTALAÇÃO DO GRAFANA**
 
@@ -128,4 +127,6 @@ Neste projeto, fiz um script que coleta métricas de CPU, RAM e Disco de uma VM 
 
 [^3]: Caso haja mais de um python instalado em sua máquina, vários caminhos serão exibidos, certifique-se de selecionar o caminho do python que você vai utilizar.
 
-Boas práticas.
+[^4]: [Variáveis de Ambiente](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc736637(v=ws.10)?redirectedfrom=MSDN)
+
+### Boas práticas!!
